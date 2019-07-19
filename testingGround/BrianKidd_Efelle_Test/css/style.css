@@ -1,0 +1,456 @@
+/* --------------------------------------------------------
+Style Sheet for Lorem Ipsum
+version: 1.0
+last modified: 10.9.2016 by Brian Kidd
+author: Brian Kidd
+email: brian.kidd.one@gmail.com
+website: briankiddmedia.com
+----------------------------------------------------------*/
+/*CSS begins here*/
+html{
+	height:100%;
+}
+
+body{
+	background-color:#fdffe3;
+	height:100%;
+	padding-bottom:50px;
+}
+
+img#banner{
+	width:100%;
+	margin-right:500px;
+	height:auto;
+	
+}
+
+#companyLogo{	
+	margin-left:20px;
+	-webkit-filter: drop-shadow(100px 100px 100px #000000);
+ 	 filter: drop-shadow(5px 5px 5px #000000);
+}
+.carousel-caption{
+	padding-bottom:0px;
+	transform: translate(25%,15%);
+	display:visible;
+}
+
+.navbar-default{
+	background: rgba(255,255,255,0.0);
+	border:none;
+}
+	
+ul.navbar-right{
+	color:#FFFFFF;
+	padding-right:40px;
+}
+
+.navbar-collapse ul>li{
+	color:#fdffe3;
+}
+.nav.navbar-nav.navbar-right li a {
+    color:#fdffe3;
+	font-size:1.25em;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:bold;
+	text-shadow: 2px 2px 10px #000000;
+}
+
+.nav.navbar-nav.navbar-right li a:hover {
+    text-decoration:underline;
+}
+
+a {
+	color:#8e4423;
+}
+
+a:hover{
+	color:#c6491a;
+	text-decoration:none;
+}
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-weight:bold;
+}
+
+h1#companyName{
+	font-size:8em;
+	color:#fdffe3;
+	font-family: 'Ramabhadra', sans-serif;
+	font-weight: bold;
+}
+
+h4{
+	color:#c6491a;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+.col-md-3#mapMarker{
+	background-color:#8e4423;
+	padding:120px 0px 70px 0px;
+	margin-bottom:100px;
+	border-radius:15px;	
+}
+
+#mapMarkerImg{
+	width: 25%;
+}
+
+#markerCaption{
+	position:relative;
+	font-size:1.5em;
+	color:#e6e3bb;
+	font-family: 'Montserrat', sans-serif;
+}
+
+p#aboutLorem{
+	line-height:2;	
+	font-family: 'Montserrat', sans-serif;
+}
+
+section#about{
+	margin-top:100px;
+	margin-bottom:100px;
+}
+
+section#contactSection{
+	background-color:#242729;
+	color:#ffffff;
+	padding:20px 0px 20px 0px;
+	margin:-15px;
+}
+
+h1#contact{
+	font-family: 'Montserrat', sans-serif;
+	font-weight:bold;
+}
+
+section#news{
+	padding:20px 0px 100px 0px;
+
+}
+
+.btn{
+	background:#242729;
+	border: 2px solid #FFFFFF;
+	border-radius:10px;
+	padding:.5em 2em .5em 2em;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:bold;
+	font-size:1.5em;
+}
+.btn:hover{
+	 background-color:#8e4423;
+	 border-color:#FFFFFF;
+}
+ul.blogPosts li {
+    display: inline-block;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.blogCategory{
+	font-family: 'Montserrat', sans-serif;
+	color:#c6491a;
+}
+.blogTitle{
+	font-family: 'Montserrat', sans-serif;
+	font-weight:bold;
+}
+footer{
+	background-color:#8e4423;
+	width:100%;
+	position:static;
+	bottom:0;
+	left:0;
+	padding-top:20px;
+	padding-right:180px;
+	color:#FFFFFF;
+	height:60px;
+	font-family: 'Montserrat', sans-serif;
+}
+footer a{
+	color:#FFFFFF;
+}
+
+footer a:hover{
+	color:#fdffe3;
+	text-decoration:underline;
+}
+span.tab-space {padding-left:1em;}
+
+.row { margin-right: 0; padding-right: 0 }/*This is a quick and dirty fix for an issue I was having with the banner having an extra right margin/padding*/
+
+@media screen and (max-width: 1630px) {
+	
+	.col-md-3#mapMarker{
+	background-color:#8e4423;
+	padding:70px 0px 40px 0px;
+	width:400px;
+	}
+	h1#companyName{
+	font-size:7em;
+	color:#fdffe3;
+	font-family: 'Ramabhadra', sans-serif;
+	font-weight: bold;
+	}
+	.carousel-caption{
+	padding-bottom:0px;
+	transform: translate(25%,17%);
+	}
+}
+
+@media screen and (max-width: 1325px) {
+	
+	.col-md-3#mapMarker{
+	background-color:#8e4423;
+	padding:70px 0px 40px 0px;;
+	width:350px;
+	}
+
+}
+
+@media screen and (max-width: 1200px) {
+	
+	.col-md-3#mapMarker{
+	background-color:#8e4423;
+padding:70px 0px 40px 0px;
+	width:350px;
+	}
+	h1#companyName{
+	font-size:6.5em;
+	color:#fdffe3;
+	font-family: 'Ramabhadra', sans-serif;
+	font-weight: bold;
+	}
+	.carousel-caption{
+	padding-bottom:0px;
+	transform: translate(25%,18%);
+	}
+	footer{
+	background-color:#8e4423;
+	width:100%;
+	position:static;
+	bottom:0;
+	left:0;
+	padding-top:20px;
+	padding-right:100px;
+	color:#FFFFFF;
+	height:60px;
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	
+	.col-md-3#mapMarker{
+	background-color:#8e4423;
+	padding:70px 0px 40px 0px;
+	width:300px;
+	}
+	h1#companyName{
+	font-size:6.5em;
+	color:#fdffe3;
+	font-family: 'Ramabhadra', sans-serif;
+	font-weight: bold;
+	}
+	.carousel-caption{
+	padding-bottom:0px;
+	transform: translate(25%,18%);
+	}
+	span.tab-space {padding-left:.75em;}
+}
+
+@media screen and (max-width: 992px) {
+	
+	.col-md-3#mapMarker{
+	background-color:#8e4423;
+	margin-top:20px;
+	padding:70px 0px 40px 0px;
+	width:300px;
+	}
+
+	#mapMarkerImg{
+	width: 15%;
+	}
+	
+	h1#companyName{
+	font-size:5em;
+	color:#fdffe3;
+	font-family: 'Ramabhadra', sans-serif;
+	font-weight: bold;
+	}
+	.carousel-caption{
+	padding-bottom:0px;
+	transform: translate(25%,22%);
+	}
+	section#about{
+	margin-top:75px;
+	margin-bottom:75px;
+	}
+	p#aboutLorem{
+	line-height:2;	
+	font-family: 'Montserrat', sans-serif;/*regular, light and bold*/
+	}
+
+	span.tab-space {padding-left:0.00em;}
+	
+	footer{
+	background-color:#8e4423;
+	width:100%;
+	position:static;
+	bottom:0;
+	left:0;
+	padding-top:20px;
+	padding-right:50px;
+	color:#FFFFFF;
+	height:60px;
+	font-size:0.75em;
+	}
+}
+
+@media screen and (max-width:900px) {
+	
+	.col-md-3#mapMarker{
+	background-color:#8e4423;
+	padding:60px 0px 40px 0px;
+	width:300px;
+	margin-top:55px;
+	}
+	h1#companyName{
+	font-size:5em;
+	color:#fdffe3;
+	font-family: 'Ramabhadra', sans-serif;
+	font-weight: bold;
+	}
+	.carousel-caption{
+	padding-bottom:0px;
+	transform: translate(25%,21%);
+	}
+
+}
+
+@media screen and (max-width:834px) {
+	
+	.col-sm-3#mapMarker{
+		margin-left:15px;
+		margin-top:20px;
+	}
+	.carousel-caption{
+	padding-bottom:0px;
+	transform: translate(0%,24%);
+	}
+}
+
+
+
+@media screen and (max-width:800px) {
+
+h1#companyName{
+	font-size:4.5em;
+	color:#fdffe3;
+	font-family: 'Ramabhadra', sans-serif;
+	font-weight: bold;
+	}
+
+}
+
+@media screen and (max-width:767px) {
+	
+	.navbar-collapse{
+		background-color:#000000;
+	}
+	.navbar.navbar-default.navbar-fixed-top{
+		position:absolute;
+		top:0;
+		left:0;
+	}
+	h1#companyName{
+	font-size:4em;
+	}
+	#companyLogo{
+		padding-top:2em;
+		display:block;
+		margin-right:auto;
+		margin-left:auto;	
+	}
+	.carousel-caption{
+	padding-bottom:0px;
+	transform: translate(0%,26%);
+	}
+	.navbar-default{
+	background: rgba(253,255,227,1.0);
+	border:none;
+	}
+	img#banner{
+	width:100%;
+	height:auto;
+	margin-top:175px;
+	}
+	.col-md-3#mapMarker{
+	background-color:#8e4423;
+	padding:70px 0px 40px 0px;
+	/*height:300px;*/
+	width:250px;
+	margin-bottom:25px;
+	}
+	section#about{
+	margin-top:30px;
+	margin-bottom:200px;
+	}
+	
+	
+}
+
+@media screen and (max-width: 550px) {
+	
+	h1#companyName{
+	font-size:3em;
+	}
+	.carousel-caption{
+	padding-bottom:0px;
+	transform: translate(0%,30%);
+	}
+	
+	footer{
+		padding-bottom:50px;
+	}
+	
+}
+
+@media screen and (max-width: 390px) {
+	
+	h1#companyName{
+	font-size:3em;
+	}
+	.carousel-caption{
+	padding-bottom:0px;
+	transform: translate(0%,10%);
+	}
+	footer{
+		padding-bottom:100px;
+	}
+	
+}
+@media screen and (max-width: 350px) {
+	
+	h1#companyName{
+	font-size:3em;
+	display:none;
+	}
+	.carousel-caption{
+	padding-bottom:0px;
+	transform: translate(0%,10%);
+	display:none;
+	}
+	
+	img#banner{
+		display:none;
+	}
+	section#about{
+		margin-top:15em;
+	}
+	footer{
+		padding-bottom:100px;
+	}
+}

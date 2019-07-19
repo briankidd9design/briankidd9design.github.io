@@ -1,0 +1,463 @@
+/* .body{
+	background-image: url("../assets/img/backgrounds/bg_old.jpg");
+	 background-repeat: no-repeat; 
+     background-size:cover; 
+	 height:100%;
+	 background-attachment:fixed;
+	
+}
+ */
+.container{
+	/*background-image: url('../images/servers_background.jpg');
+	background-position:center center;
+	background-size: cover;
+	height: 200px;*/
+	/*//background-color:gray;*/
+	/*margin-left:10%;*/
+	
+}
+/* .c-form-container section-container section-container-image-bg */
+.c-form-container {
+	margin-top:0px;
+}
+
+.wrapper{
+	margin-left:10%;
+	margin-right:10%;
+}
+
+table#nav{
+	width:100%;
+}
+
+h1#main_header{
+	font-size:4.75em;
+	float:right;
+	font-weight:bold; 
+	font-family: 'Slabo 27px', serif;
+}
+
+#main_logo{
+	width:75px;
+	height:150px;
+	float:left;
+	margin-left:5%;
+}
+
+header{
+	background-color:#d1d1e0;
+	border-top: solid 40px rgba(0,0,0,1)
+}
+
+.navbar-inverse .navbar-nav > li > a{
+	font-family: 'Roboto', sans-serif;
+	font-size:1.25em;
+	font-weight: 400;
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+	  color:#23527c;
+	
+}
+.navbar{
+	margin-bottom:0px;
+}
+
+a.social-icons{
+	color:#ed1c24;
+	float:right;
+	padding-top:3px;
+	margin-right:10px;
+}
+a.social-icons:visited{
+	color:#ed1c24;
+}
+
+a.social-icons:hover{
+	color:#23527c;
+}
+img#fccLogo{
+		padding-left: 0px;
+		padding-top:3px;
+		width:55px;	
+	}
+.container::before{
+	margin-left:10%;
+}
+
+
+
+
+.c-form-top{
+	font-family: 'Oswald', sans-serif;
+	font-size:1.25em;
+	font-weight:bold;
+}
+
+.label-text{
+	font-family: 'Oswald', sans-serif;
+}
+.c-form-bottom{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+.col-sm-12 h3{
+	color:black;
+}
+.container-fluid p{
+	color:black;
+	font-family: 'Roboto', sans-serif;
+	font-weight:400;
+}
+.container-fluid p>a{
+	color:black;
+	font-family: 'Roboto', sans-serif;
+	font-weight:400;
+}
+
+.container-fluid p>a:hover{
+	color:#23527c;
+	font-family: 'Roboto', sans-serif;
+	font-weight:400;
+}
+ 
+ .c-form-info-box-icon{
+	background-color:#23527c;
+}  
+
+.c-form-top-right-icon{
+	background-color:#23527c;
+}
+
+p{
+	color:black;
+	font-family: 'Roboto', sans-serif;
+	font-weight:400;
+}
+
+footer {
+	font-family: 'Roboto', sans-serif;
+	font-size:1.5em;
+	width: 100%;
+	/* height: 15%; */
+	background-color: #000000;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+footer p {
+	font-family: 'Roboto', sans-serif;
+	font-size:1em;
+	color:#d1d1e0;
+	text-align:center;
+}
+
+@media only screen and (max-width: 1630px){/*For Internet Exlorer 11 laptop size*/
+
+	h1#main_header{
+		font-size:3.75em;
+		font-weight:bold; 
+		font-family: 'Slabo 27px', serif;
+		float:right;
+	}
+	
+	header{
+	background-color:#d1d1e0;
+	border-top: solid 20px rgba(0,0,0,1);
+	}
+	
+	#main_logo{
+		width:70px;
+		height:130px;
+		float:left;
+		padding:5px;
+	}
+	
+	navbar-inverse .navbar-nav > li > a{
+		font-family: 'Roboto', sans-serif;
+		font-size:1em;
+	}
+	
+	.navbar{
+		height:5px;
+	
+	}
+	
+	ul.nav{
+		padding-bottom:2px;
+			
+	}
+	
+	.social-icons{	
+		color:#ed1c24;
+		float:right;
+		padding-top:3px;
+		height:2px;
+		margin-right:10px;
+	}
+	a.social-icons:visited{
+	color:#ed1c24;
+	}
+
+	a.social-icons:hover{
+	color:#23527c;
+	}
+
+}
+
+@media only screen and (max-width: 1470px){
+	
+	h1#main_header{
+		font-size:3.75em;
+		font-weight:bold; 
+		font-family: 'Slabo 27px', serif;
+		float:right;
+	}
+	
+	header{
+	background-color:#d1d1e0;
+	border-top: solid 20px rgba(0,0,0,1);
+	}
+	
+	#main_logo{
+		width:70px;
+		height:130px;
+		float:left;
+		padding:5px;
+	}
+	
+	navbar-inverse .navbar-nav > li > a{
+		font-family: 'Roboto', sans-serif;
+		font-size:1em;
+	}
+	
+	.navbar{
+		height:5px;
+	
+	}
+	
+	ul.nav{
+		padding-bottom:2px;
+			
+	}
+	
+	.social-icons{	
+		color:#ed1c24;
+		float:right;
+		padding-top:3px;
+		margin-right:10px;
+		height:2px;
+	}
+	a.social-icons:visited{
+	color:#ed1c24;
+	}
+
+a.social-icons:hover{
+	color:#23527c;
+}
+
+}
+@media only screen and (max-width: 1300px){/*can be for laptops Chrome Version:51.0.2704.103 m
+, Firefox Version: 47.0.1*/
+	
+	h1#main_header{
+		font-size:3em;
+		font-weight:bold; 
+		font-family:'Slabo 27px', serif;
+		float:right;
+	}
+	
+	header{
+	background-color:#d1d1e0;
+	border-top: solid 20px rgba(0,0,0,1);
+	}
+	
+	#main_logo{
+		width:75px;
+		height:130px;
+		float:left;
+		padding:5px;
+	}
+	.wrapper{
+		margin-left:10%;
+		margin-right:10%;
+		margin-top:18%;
+	}
+	
+	.navbar-inverse .navbar-nav > li > a{
+		font-family: 'Roboto', sans-serif;
+		font-size:1em;
+	}
+	
+	.navbar{
+		height:10px;
+	
+	}
+	
+	ul.nav{
+		padding-bottom:2px;
+			
+	}
+	
+	.linkedInButton{
+		color:red;
+		float:right;
+		padding-top:3px;	
+	}
+	
+	section{
+		margin-bottom:2%;
+		
+	}
+}
+@media only screen and (max-width: 1200px){
+	
+	h1#main_header{
+		font-size:3em;
+		font-weight:bold; 
+		font-family: 'Slabo 27px', serif;
+		float:right;
+	
+	
+	}
+	header{
+	
+	background-color:#d1d1e0;
+	border-top: solid 20px rgba(0,0,0,1);
+}
+	
+	#main_logo{
+		width:75px;
+		height:130px;
+		float:left;
+		padding:5px;
+	}
+	.wrapper{
+		margin-left:10%;
+		margin-right:10%;
+		margin-top:18%;
+	}
+	
+	.navbar-inverse .navbar-nav > li > a{
+		font-family: 'Roboto', sans-serif;
+		font-size:1em;
+	}
+	
+	.navbar{
+		height:10px;
+	
+	}
+	
+	ul.nav{
+		padding-bottom:2px;
+			
+	}
+	
+	.linkedInButton
+	{
+		color:red;
+		float:right;
+		padding-top:3px;	
+	}
+	section{
+		
+		margin-bottom:2%;
+	}
+		#profile_photo{
+		float:right;
+		display:inline;
+		border:solid 3px rgba(0,0,0,0.65);
+		margin-left:5px;
+		width:35%;
+		height:35%;
+	}
+}
+@media only screen and (max-width: 1045px){
+	
+h1#main_header{
+	
+		font-size:2.75em;
+		font-weight:bold; 
+		font-family: 'Slabo 27px', serif;
+		float:right;
+	
+	
+	}
+	header{
+	
+	background-color:#d1d1e0;
+	border-top: solid 20px rgba(0,0,0,1);
+}
+	
+	#main_logo{
+		width:75px;
+		height:130px;
+		float:left;
+		padding:5px;
+	}
+	.wrapper{
+		margin-left:10%;
+		margin-right:10%;
+		margin-top:22%;
+	}
+	
+	.navbar-inverse .navbar-nav > li > a{
+		font-family: 'Roboto', sans-serif;
+		font-size:1em;
+	}
+	
+	.navbar{
+		height:10px;
+	
+	}
+	
+	ul.nav{
+		padding-bottom:2px;
+			
+	}
+	
+	.linkedInButton
+	{
+		color:red;
+		float:right;
+		padding-top:3px;	
+	}
+	section{
+		
+		margin-bottom:2%;
+		
+	}
+}
+@media only screen and (max-width: 770px){
+	.navbar-nav{
+		float:left;
+		background-color:#000;
+	
+	
+		
+	}
+	.navbar {
+		background-color:;
+		position: relative;
+		min-height: 45px;
+		margin-bottom: 20px;
+		z-index: 9999;
+		border: 1px solid transparent;
+	}
+	
+}
+@media only screen and (max-width: 690px){
+		
+	.navbar {
+    position: relative;
+    min-height: 45px;
+    margin-bottom: 20px;
+	z-index: 9999;
+    border: 1px solid transparent;
+	}
+	
+	
+
+}
+
