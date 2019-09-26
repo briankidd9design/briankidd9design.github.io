@@ -1,0 +1,1712 @@
+#ext_menu-3.mbr-navbar--stuck .mbr-navbar__section {
+  background: #91cee1;
+}
+#ext_menu-3 .mbr-navbar__section {
+  background: #91cee1;
+}
+#ext_menu-3 .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#ext_menu-3 .mbr-brand__name {
+  font-size: 16px;
+}
+#ext_menu-3.mbr-navbar--stuck .mbr-navbar__section {
+  background: #91cee1;
+}
+#ext_menu-3 .mbr-navbar__section {
+  background: #91cee1;
+}
+#ext_menu-3 .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#ext_menu-3 .mbr-brand__name a {
+  font-size: 48px;
+}
+#ext_menu-3 h1#bizName {
+  color: white;
+  text-align: center;
+  font-size: 4em;
+  font-family: Quicksand;
+  font-weight:bold;
+}
+
+#ext_menu-i h1#bizName{
+  color: white;
+  text-align: center;
+  font-size: 4em;
+  font-family: Quicksand;
+  font-weight:bold;
+}
+#bohdiLeafImage{
+	width:16%;
+	position:absolute;
+	vertical-align:center;
+	left:0;
+	right:0;
+	margin: 0 auto;
+	/*float:left;*/
+	display:block;
+	top:-15px;
+	z-index:-1;
+}
+
+h1#bizName {
+  color: white;
+  text-align: center;
+  font-size: 4em;
+  font-family: Quicksand;
+  font-weight:bold;
+}
+ #herbalMedicine {
+	color: #4c6972;
+	font-size: 1em;
+	font-family: 'Dancing Script', cursive;
+	letter-spacing:0;
+}
+
+#christyInTree{
+	
+	margin-top:50px;
+}
+
+/*img#spacer{
+	display:inline;
+	border: 5px solid red;
+	float:right;
+	display:none;
+	
+}*/
+
+#containerAbout{
+	background-color:rgb(145, 206, 225); 
+	color:#fff;
+	width:100%;
+}
+
+#aboutChristy{
+	padding:15px;
+}
+
+#about{
+	color:#4c6972;
+	 background-color: rgba(255, 255, 255, 0.75);
+	 padding:10px;
+}
+
+#aboutChristy{
+	background-color: rgba(76, 105, 114, 0.10);
+	margin-top:50px;
+}
+
+#h3AboutChristy{
+	font-family:Quicksand;
+	font-weight:bold;
+	font-size:2em;
+}
+
+#containerServices{
+	font-size:17px;
+	color:#4c6972;
+}
+img#OMService{
+	float:right;
+	margin-right:200px;
+}
+img#OMServiceMobile{
+	display:none;
+}
+#ext_menu-3 .mbr-navbar__menu-box--inline-right {
+  text-align: center;
+}
+
+
+
+/*#welcomePhotoAddress{
+		margin-left:50px; 
+	}*/
+/*#herbalMedicine{
+	  color: #4c6972;
+  		font-size: 1em;
+font-family: 'Dancing Script', cursive;
+letter-spacing:1px;
+}*/
+
+hr.style1{
+	border-top:3px solid #4c6972;
+}
+
+#servicesSection{
+	background-image:url("../../images/servicesBackground.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+#containerServices{
+		 /*background-color: rgba(255, 255, 255, .79);*/ 
+}
+#servicesTitle{
+	font-size:2.25em;
+	font-family:Quicksand;
+	font-weight:bold;
+}
+#containerServices  p{
+	z-index:10;
+}
+img#acudoll{
+	position:absolute;
+	z-index:0;
+	right:0;
+}
+#welcomePicture{
+	margin-left:-15px;
+	padding:10px;
+}
+
+#welcomePictureMobile{
+	width:0;
+	height:0;
+}
+#spacer{
+	border:5px solid red;
+}
+/*#header4-4 {
+  table#welcomeTable td{
+    padding-top:10px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+    
+}*/
+  /*.clinic-info{
+    /*margin: 0 auto;*/
+  /*float:right;
+    top:0;
+    background-color: rgba(255,255,255, .5);
+    width:400px;
+    height:75px;
+}*/
+
+#header4-4 P {
+  text-align: center;
+}
+
+#welcomePhotoAddress{
+	background-color: rgba(255, 255, 255, 0.75);
+	font-size: 1.25em;
+	font-weight: bold;
+	color: #4c6972;
+	padding-left:0px;
+	padding-bottom:10px;
+	/*margin-bottom:20px;*/
+}
+#mapMarker{
+	/*vertical-align:top;
+	display:inline;
+	float:right;*/
+	color:#f99a0e;
+	display:none;
+	position:absolute;
+	text-align:center;
+	left:0;
+	right:0;
+	font-size:10em;
+	margin-top:-100px;
+	z-index:-1;
+	/*margin: 0 auto;
+	vertical-align:bottom;*/
+	top:125px;
+}
+/*for 08.28.2017 session */
+/*#address:hover #mapMarker{
+	display:block;
+}*/
+
+#address:visited #mapMarker{
+	display:none;
+}
+/*.touch #address.no-hover#mapMarker {
+	display: none !important;	
+	color:red;
+}*/
+
+#capCredentials{
+	z-index:2;
+}
+
+
+#mobileCredentials{
+	visibility:hidden;
+}
+
+
+
+#address{
+	/*/background-color:yellow;*/
+	text-align:left;
+	/*width:320px;*/
+	float:left;
+	height:240px;
+	padding-top:50px;
+	z-index:1;
+}
+
+#addressLink{
+	text-decoration:none;
+}
+
+#addressLink:visited{
+	color:#4c6972;
+}
+
+#socialIcons{
+	margin-left:auto;
+	margin-right:auto;
+	letter-spacing:5px;
+	/*text-align:center;*/
+	/*padding-top:60px;*/
+	position:absolute;
+	bottom:0px;
+}
+
+#header4-4 td#wt1 {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 7px;
+}
+#header4-4 td#wt2 {
+  padding-right: 10px;
+}
+#header4-4 mbr-hero__subtext {
+  font-size: 21px;
+  line-height: 29px;
+  margin: -32px 0 3px 0;
+  padding: 0 0 0 0;
+  position: relative;
+  top: 0px;
+}
+#header4-4 figcaption.figurecaption-christy {
+  /*font-size:1.25em;*/
+  color: #4c6972;
+}
+#msg-box4-5 .mbr-header__text {
+  color: #ffffff;
+  text-align: left;
+}
+#msg-box4-5 .mbr-header__subtext {
+  color: #ffffff;
+}
+#msg-box4-5 .mbr-article {
+  color: #ffffff;
+}
+/*#msg-box4-5 img#christyInTree {
+  border: 5px solid white;
+}*/
+#header4-c H1 {
+  color: #4c6972;
+}
+#header4-c P {
+  color: #4c6972;
+}
+#header4-c #services {
+  background-color: rgba(255, 255, 255, 0.75);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#contacts1-d STRONG {
+  text-align: right;
+
+}
+#ext_menu-f.mbr-navbar--stuck .mbr-navbar__section {
+  background: #91cee1;
+}
+#ext_menu-f .mbr-navbar__section {
+  background: #91cee1;
+}
+#ext_menu-f .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#ext_menu-f .mbr-brand__name {
+  font-size: 16px;
+}
+#ext_menu-f.mbr-navbar--stuck .mbr-navbar__section {
+  background: #91cee1;
+}
+#ext_menu-f .mbr-navbar__section {
+  background: #91cee1;
+}
+#ext_menu-f .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#ext_menu-f .mbr-brand__name a {
+  font-size: 48px;
+}
+#ext_menu-f h1#bizName {
+  color: white;
+  text-align: center;
+  font-size: 4em;
+}
+#ext_menu-f .mbr-navbar__menu-box--inline-right {
+  text-align: center;
+}
+#contacts1-j STRONG {
+  text-align: right;
+}
+#ext_menu-i.mbr-navbar--stuck .mbr-navbar__section {
+  background: #91cee1;
+}
+#ext_menu-i .mbr-navbar__section {
+  background: #91cee1;
+}
+#ext_menu-i .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#ext_menu-i .mbr-brand__name {
+  font-size: 16px;
+}
+#ext_menu-i.mbr-navbar--stuck .mbr-navbar__section {
+  background: #91cee1;
+}
+#ext_menu-i .mbr-navbar__section {
+  background: #91cee1;
+}
+#ext_menu-i .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#ext_menu-i .mbr-brand__name a {
+  font-size: 48px;
+}
+#ext_menu-i h1#bizName {
+  color: white;
+  text-align: center;
+}
+#ext_menu-i .mbr-navbar__menu-box--inline-right {
+  text-align: center;
+}
+#contacts1-j STRONG {
+  text-align: right;
+}
+#ext_menu-m.mbr-navbar--stuck .mbr-navbar__section {
+  background: #91cee1;
+}
+#ext_menu-m .mbr-navbar__section {
+  background: #91cee1;
+}
+#ext_menu-m .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#ext_menu-m .mbr-brand__name {
+  font-size: 16px;
+}
+#ext_menu-m.mbr-navbar--stuck .mbr-navbar__section {
+  background: #91cee1;
+}
+#ext_menu-m .mbr-navbar__section {
+  background: #91cee1;
+}
+#ext_menu-m .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#ext_menu-m .mbr-brand__name a {
+  font-size: 48px;
+}
+#ext_menu-m h1#bizName {
+  color: white;
+  text-align: center;
+  font-size: 4em;
+}
+#ext_menu-m .mbr-navbar__menu-box--inline-right {
+  text-align: center;
+}
+#contacts1-n STRONG {
+  text-align: right;
+}
+#ext_menu-o.mbr-navbar--stuck .mbr-navbar__section {
+  background: #91cee1;
+}
+#ext_menu-o .mbr-navbar__section {
+  background: #91cee1;
+}
+#ext_menu-o .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#ext_menu-o .mbr-brand__name {
+  font-size: 16px;
+}
+#ext_menu-o.mbr-navbar--stuck .mbr-navbar__section {
+  background: #91cee1;
+}
+#ext_menu-o .mbr-navbar__section {
+  background: #91cee1;
+}
+#ext_menu-o .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#ext_menu-o .mbr-brand__name a {
+  font-size: 48px;
+}
+#ext_menu-o h1#bizName {
+  color: white;
+  text-align: center;
+  font-size: 4em;
+}
+#ext_menu-o .mbr-navbar__menu-box--inline-right {
+  text-align: center;
+}
+#contacts1-p STRONG {
+  text-align: right;
+}
+#ext_menu-r.mbr-navbar--stuck .mbr-navbar__section {
+  background: #91cee1;
+}
+#ext_menu-r .mbr-navbar__section {
+  background: #91cee1;
+}
+#ext_menu-r .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#ext_menu-r .mbr-brand__name {
+  font-size: 16px;
+}
+#ext_menu-r.mbr-navbar--stuck .mbr-navbar__section {
+  background: #91cee1;
+}
+#ext_menu-r .mbr-navbar__section {
+  background: #91cee1;
+}
+#ext_menu-r .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#ext_menu-r .mbr-brand__name a {
+  font-size: 48px;
+}
+#ext_menu-r h1#bizName {
+  color: white;
+  text-align: center;
+  font-size: 4em;
+}
+#ext_menu-r .mbr-navbar__menu-box--inline-right {
+  text-align: center;
+}
+#contacts1-s STRONG {
+  text-align: right;
+}
+.mbr-hero__text{
+	font-family: Quicksand;
+	font-weight:900;	
+}
+
+footer{
+
+	background-color:#4c6972;
+	width:100%;
+	height:200px;
+	/*position:absolute;
+	bottom:0;*/
+}
+
+/*#contacts1-d{
+	position:absolute;
+	bottom:0;
+}
+	*/
+#footerAddress p{
+	margin-top:40px;
+	z-index:10;
+}
+.contactFormSection{
+	margin-top:15px;
+	background-color: #8ac4d6;
+	padding:20px;
+	
+}
+#outerClinicPhotos{
+		background-color:#91cee1;
+		margin-top:-100px;
+}
+#clinicPhotos{
+	margin-top:275px;
+	padding:30px;
+	margin-bottom:15px;
+	background-color: rgba(76, 105, 114, 0.10);
+	 /*background-color: rgba(255, 255, 255, 0.75);*/
+	/*background-color:#91cee1;*/
+}
+
+#clinicPhotoRow{
+	background-color: rgba(255, 255, 255, 0.75);
+	padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 12px;
+}
+
+#clinicFrontDoor2{
+	display:none;
+}
+#massageTable2{
+	display:none;
+}
+#massageTable{
+
+}
+#nookImage{
+	
+}
+
+#mtable{
+	background-color:blue;
+	/*height:200px;*/
+}
+#nook{
+	background-color:yellow;
+		
+}
+#frontDoor{
+	background-color:red;
+		/*height:200px;*/
+}
+#contactForm{
+	color:#4c6972;
+}
+#contactLeft{
+	background-color: rgba(255, 255, 255, 0.75);
+	height:942px;
+	padding-top:20px;
+	padding-left:20px;
+	padding-right:20px;	
+	
+}
+#contactRight{
+		background-color: rgba(255, 255, 255, 0.75);
+		padding:20px;
+}
+#contactPageContent{
+	font-size:17px;
+	color:#4c6972;
+}
+#contactAddress{
+	/*background-color:yellow;*/
+	/*background-color: rgba(76, 105, 114, 0.10);*/
+	background-color: rgba(76, 105, 114, 0.10);
+	padding-top:20px;
+	padding-bottom: 20px;
+	height:100%;
+	font-size:17px;
+}
+img#buildingFront{
+	position:relative;
+	top: 170px;
+		
+}
+#appointmentID{
+	/*background-color:orange;*/
+	padding-top:20px ;
+	padding-bottom:20px;
+	background-color: rgba(76, 105, 114, 0.10);
+	height:100%;
+}
+
+.flexible-container {
+    position: relative;
+	margin-top:40px;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 480px;
+    overflow: hidden;
+}
+
+.flexible-container iframe,   
+.flexible-container object,  
+.flexible-container embed {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+body#newPatientPage{
+	background-image: url(../../images/herbs-2000x1363.jpg);
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+section#newPatientContent{
+	
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+	font-size:17px;
+	color:#4c6972;
+}
+
+section#newPatientContent h1{
+	font-family: 'Quicksand', sans-serif;
+	font-weight:bold;
+}
+ul#downloadPatientForms{
+	list-style:none;
+	float:left;
+}
+#herbs{
+	 background-color:rgba(255,255,255,0.20 );
+	 height:400px;
+}
+ul#downloadPatientForms a:hover{
+	color:black;
+}
+
+#outerNewPatientForms{
+	background-color:#91cee1;
+	margin-top:-100px;
+	margin-right:100px;
+	margin-left:100px;
+}
+#newPatientForms{
+	margin-top:275px;
+	padding:30px;
+	margin-bottom:15px;
+	background-color: rgba(76, 105, 114, 0.10);
+	 /*background-color: rgba(255, 255, 255, 0.75);*/
+	/*background-color:#91cee1;*/
+}
+#newPatientScheduleButton{
+	margin:20px;
+}
+
+#patientForms{
+	background-color: rgba(255, 255, 255, 0.75);
+	padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 12px;
+}
+
+#outerFrequentlyAskedQuestions{
+	background-color:#91cee1;
+	margin-right:100px;
+	margin-left:100px;
+	
+}
+#frequentlyAskedQuestions{
+	padding:30px;
+	margin-bottom:15px;
+	background-color: rgba(76, 105, 114, 0.10);
+	 /*background-color: rgba(255, 255, 255, 0.75);*/
+	/*background-color:#91cee1;*/
+}
+#frequentlyAskedQuestions p{
+	text-align:left;
+}
+#frequentlyAskedQuestions ul{
+	text-align:left;
+}
+
+#faq{
+	background-color: rgba(255, 255, 255, 0.75);
+	padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 12px;
+}
+#outerBootstrapCarousel{
+	background-color: rgba(255, 255, 255, 0.75);
+	margin-left:100px;
+	margin-right:100px;
+}
+
+#ratesSection{
+	margin-top:50px;
+	background-image: url(../../images/mbr-3-2000x1333.jpg);
+}
+#ratesScheduleButton{
+	margin-top:-100px;
+}
+
+body#ratesAndInsurance{
+	/*background-image: url(../../images/mbr-3-2000x1333.jpg);
+		background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;*/
+}
+
+#ratesAndInsuranceContainer{
+	background-color: rgba(255, 255, 255, 0.90);
+	margin-bottom:50px;
+}
+	
+#ratesAndInsuranceRow{
+	/*background-color: rgba(76, 105, 114, 0.25);*/
+	color:#4c6972;
+	font-size:17px;
+	margin:20px;
+}
+
+#testimonialsFormSection{
+	margin-top:50px;
+	margin-bottom:50px;
+	background-color: rgba(76, 105, 114, 0.10);
+}
+#testimonialsMain{
+	margin-top:20px;
+	background-image: url(../../images/whiteMeadowMountain.jpg);
+}
+h1#testimonialsHeading{
+	color:#4c6972;
+	margin-top:20px;
+	font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+#patientTestimonialsTop{
+	background-color: rgba(76, 105, 114, 0.10);
+}
+
+#patientTestimonialsIndividual{
+	background-color: rgba(255, 255, 255, 0.75);
+}
+
+#outerTestimonialsForm{
+	
+}
+
+#contactFormTestimonials{
+		background-color: rgba(255, 255, 255, 0.75);
+}
+h1#testimonialFormHeading{
+	color:#4c6972;
+	margin-top:20px;
+	font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+#testimonialsTotal{
+	margin-top:50px;
+	height:850px;
+	padding:15px;
+	overflow:auto;
+}
+
+
+@media only screen and (max-width:1440px){
+	
+	img#OMService{
+		margin-right:0;
+	}
+}
+
+
+@media only screen and (max-width: 1200px) {	
+	
+	.mbr-navbar__item {
+		font-size: 1.65em;
+	}
+	.mbr-buttons--right .mbr-buttons__btn, .mbr-buttons--right .mbr-buttons__link {
+		margin: 0 0 10px 8px;
+	}
+	#bohdiLeafImage{
+		width:20%;
+		position:absolute;
+		vertical-align:center;
+		left:0;
+		right:0;
+		margin: 0 auto;
+		/*float:left;*/
+		display:block;
+		top:-15px;
+		z-index:-1;
+	}
+	img#OMService{
+		margin-right:200px;
+	}
+	#footerAddress p{
+		margin-top:40px;
+		z-index:10;
+	}
+	/*#address{
+		float:left;
+	}	*/
+	
+	#clinicPhotos{
+		margin-top:275px;
+		margin-bottom:15px;
+	}
+	#clinicFrontDoor{
+		width:281px;
+		height:281px;	
+	}
+	img#buildingFront{
+		position:relative;
+		top: 215px;
+		
+	}
+	#christyInTree{
+		width:600px;
+		height:800px;
+		margin-bottom:60px;
+	}
+	#nookImage{
+		width:125px;
+		height:281px;
+	}
+	/*#contactLeft{	
+		height:902px;
+	}*/
+	#massageTable{
+		width:281px;
+		height:281px;
+	}
+	#outerNewPatientForms{
+		margin-right:auto;
+		margin-left:auto;
+	}
+	#outerFrequentlyAskedQuestions{
+		margin-right:auto;
+		margin-left:auto;
+	}
+	#outerBootstrapCarousel{
+		background-color: rgba(255, 255, 255, 0.75);
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.flexible-container {
+		margin-top:0px;
+	}
+	
+}
+	
+@media only screen and (max-width: 1199px) {	
+	#contactLeft{	
+		height:990px;
+	}
+}
+	
+@media only screen and (max-width: 1024px) {
+
+	#servicesSection{
+		background-image:url("../../images/whitebg.png");
+	}
+		#contactForm{
+		margin-top:250px;
+	}
+	img#OMService {
+		margin-right: 100px;
+	}
+
+}	
+	
+@media only screen and (max-width:991px){
+	#welcomePhotoAddress{
+		margin-left:-70px;
+		
+	}
+	img#buildingFront{
+		position:relative;
+		top: 5px;
+		
+	}
+}	
+	
+	
+	
+	
+	
+@media only screen and (max-width: 992px) {
+		
+	.mbr-figure--full-width iframe, 
+	.mbr-figure--full-width .mbr-figure__img,
+	.mbr-figure--full-width .mbr-figure__map {
+    width: 100%;
+    margin-top: 0px;
+	margin-bottom:50px;
+	}
+	#bohdiLeafImage{
+	width:30%;
+	position:absolute;
+	vertical-align:center;
+	left:0;
+	right:0;
+	margin: 0 auto;
+	/*float:left;*/
+	display:block;
+	top:-15px;
+	z-index:-1;
+	}
+	
+	#clinicFrontDoor{
+		width:208px;
+		height:208px;
+		/*margin-left:-50px;*/
+	}
+	#contactLeft{
+		height:auto;
+		padding-bottom:20px;
+	}
+	#nookImage{
+		width:110px;
+		height:208px;
+	}
+	#massageTable{
+		width:208px;
+		height:208px;
+	}
+	#herbs{
+		background-color:rgba(255,255,255,0.0 );
+	}
+	.mbr-plan__box {
+    margin-right: 20px;
+	}
+	
+	footer{
+		height:225px;
+	}
+	#footerAddress p{
+		margin-top:40px;
+		z-index:10;
+	}
+    
+}
+
+@media only screen and (max-width:845px){
+	
+	#outerNewPatientForms{
+		margin-top:-75px;
+	
+	}
+}
+	
+	
+@media only screen and (max-width: 805px) {
+	
+		#ext_menu-3 h1#bizName {
+		color: white;
+		text-align: center;
+		font-size: 3.75em;
+		font-family: Quicksand;
+		font-weight: bold;
+		}
+		
+		#ext_menu-f h1#bizName {
+		color: white;
+		text-align: center;
+		font-size: 3.75em;
+		font-family: Quicksand;
+		font-weight: bold;
+		}
+		
+		#ext_menu-i h1#bizName {
+		color: white;
+		text-align: center;
+		font-size: 3.75em;
+		font-family: Quicksand;
+		font-weight: bold;
+		}
+	
+		#ext_menu-m h1#bizName {
+		color: white;
+		text-align: center;
+		font-size: 3.75em;
+		font-family: Quicksand;
+		font-weight: bold;
+		}
+		
+		#ext_menu-o h1#bizName {
+		color: white;
+		text-align: center;
+		font-size: 3.75em;
+		font-family: Quicksand;
+		font-weight: bold;
+		}
+		#ext_menu-r h1#bizName {
+		color: white;
+		text-align: center;
+		font-size: 3.75em;
+		font-family: Quicksand;
+		font-weight: bold;
+		}
+
+}
+
+
+@media only screen and (max-width: 845px) {
+	.mbr-box__container {
+		height: 60%;
+	}
+	.mbr-navbar:before, .mbr-navbar__container {
+		height: 50px;
+	}
+	#outerClinicPhotos{
+	
+		margin-top:-50px;
+	}
+	
+}
+
+@media only screen and (max-width: 768px) {
+	
+	
+	#bohdiLeafImage{
+		width:30%;
+		position:absolute;
+		vertical-align:center;
+		left:0;
+		right:0;
+		margin: 0 auto;
+		/*float:left;*/
+		display:block;
+		top:-50px;
+		z-index:-1;
+	}
+	#footerAddress p{
+		margin-top:40px;
+		z-index:10;
+	}
+	#contactPageContent{
+		margin-top:275px;
+	}
+	#contactAddress{
+		margin-top:80px;
+	}
+	#contactForm{
+		margin-top:300px;
+	}
+	/*#welcomePicture{
+		position:absolute;
+		left: 0;
+		right: 0;
+		margin:0 auto;
+	}*/
+	/*#welcomePicture{
+		background-color:yellow;
+	}*/
+	
+	#welcomePhotoAddress{
+		/*margin-left:50px;*/
+	}
+	
+	#footerAddress{
+		position:relative;
+		bottom:0;
+	}
+	
+	#address{
+		/*position:absolute;
+		left:0;
+		right:0;
+		margin: 0 auto;*/
+		/*background-color:red;*/
+		margin-top:20px;
+		float:left;
+		/*width:200px;
+		margin-top:-50px;
+		/*margin-left:115px;*/
+	}
+	
+	.mbr-box__container {
+		height: 70%;
+	}
+	.mbr-navbar:before, .mbr-navbar__container {
+		height: 50px;
+	}
+	
+	#socialIcons{
+		margin-left:auto;
+		margin-right:auto;
+		letter-spacing:5px;
+		/*text-align:center;*/
+		/*padding-top:60px;*/
+		position:absolute;
+		bottom:25px;
+	}
+	#clinicPhotos{
+		display:none;
+	}
+	#clinicFrontDoor2{
+		display:block;
+		width:320px;
+		height:320px;
+		
+	}
+	#massageTable2{
+		display:block;
+		width:295px;
+		height:295px;
+	}
+	.mbr-navbar__section mbr-section {
+		position: absolute;
+		top:0;
+	}
+	ul#downloadPatientForms{
+		list-style:none;
+		float:none;
+	}
+	#herbs{
+		
+		margin-left:100px;
+		background-color:rgba(255,255,255,0.0 );
+		height:auto;
+	}
+	.mbr-plan__box {
+    margin-right: 0px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	
+	
+	/*#welcomePicture{
+		background-color:yellow;
+	}*/
+	
+	#welcomePhotoAddress{
+		position:absolute;
+		left:0;
+		right:0;
+		margin: 0 auto;
+		padding-bottom:200px;
+	}
+	
+	#address{
+		/*background-color:red;*/
+		position:absolute;
+		left:0px;
+		right:0px;
+		margin-right:auto;
+		margin-left:auto;
+		top:210px;
+	}
+	
+	.mbr-box__container {
+		height: 70%;
+	}
+	.mbr-navbar:before, .mbr-navbar__container {
+		height: 50px;
+	}
+	
+	#socialIcons{
+		margin-left:auto;
+		margin-right:auto;
+		letter-spacing:5px;
+		/*text-align:center;*/
+		/*padding-top:60px;*/
+		position:absolute;
+		bottom:25px;
+	}
+	
+	#welcomeSection{
+		min-height:600px;
+		margin-bottom:20px;
+	}
+	
+}
+
+@media only screen and (max-width: 684px) {
+	
+	
+.mbr-navbar--sticky .mbr-navbar__section {
+	position:absolute;
+	top:0;
+	}
+	.mbr-navbar__section mbr-section {
+		position:static;
+	}
+	img#OMService{
+		display:none;
+	}
+	img#OMServiceMobile{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	#address{
+		position:absolute;
+		left:0px;
+		right:0px;
+		color:red;
+		margin-right:auto;
+		margin-left:auto;
+		top:200px;
+		width:400px;
+	}
+	
+	#welcomePhotoAddress{
+		width:325px;
+		position:absolute;
+		left:0;
+		right:0;
+		margin-right:auto;
+		margin-left:auto;
+		padding-bottom:180px;
+	}
+
+	#mobileCredentials{
+	
+		visibility:visible;
+		position:absolute;
+		top:100px;
+		left:250px;
+	}
+	
+	#bohdiLeafImage{
+		width:200px;
+		height:210px;
+		position:absolute;
+		vertical-align:center;
+		left:0;
+		right:0;
+		margin: 0 auto;
+		/*float:left;*/
+		display:block;
+		top:-55px;
+		z-index:-1;
+	}
+
+	
+	#welcomePicture{
+		
+		/*position:absolute;
+		left:0;
+		right:0;
+		margin: 0 auto;*/
+		margin-left:15px;
+	}
+	#welcomeSection{
+		min-height:600px;
+		margin-bottom:20px;
+	}
+	#christyInTree{
+		width:550px;
+		height:733px;
+	
+	}
+	#contactForm{
+		margin-top:300px;
+	}
+	
+	#footerAddress p{
+		margin-left:20px;
+		font-size:.9em;
+	}
+	/*footer{
+		position:absoulute;
+		bottom:0;
+	}*/
+	
+	.flexible-container {
+		position: relative;
+		padding-bottom: 75%;
+		padding-top: 30px;
+		height: 0;
+		overflow: hidden;
+	}
+
+	.flexible-container iframe,   
+	.flexible-container object,  
+	.flexible-container embed {
+		position: absolute;
+		top: 55px;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		}
+		#herbs{
+			margin-left:0px;
+		}
+}
+/*****************section for small high resolutions laptops with high res but small css pixel heights*****************************************/
+/*max height media query for monitors with a height less than 600px*/
+@media screen and (max-height:600px)and (max-width:1024px){
+	
+	.mbr-navbar__section {
+		height: 200px;
+		width: 100%;
+		z-index: 1000;
+	}
+	#christyInTree{
+		width:450px;
+		height:600px;
+	}
+	#outerClinicPhotos {
+		margin-top: -155px;
+	}
+	/*#outerNewPatientForms {
+		margin-top: -155px;
+	}*/
+
+}
+
+@media screen and (max-height:600px)and (max-width:992px){/* for landscape view on cellphones */
+		.mbr-navbar__section {
+		height: auto;
+		width: 100%;
+		z-index: 1000;
+	}
+}
+
+@media screen and (max-height:400px){
+		.mbr-navbar__section {
+		height: auto;
+		width: 100%;
+		z-index: 1000;
+	}
+	
+}
+
+/*******************************************************************************/
+
+
+@media only screen and (max-width:570px){
+	#christyInTree{
+		width:450px;
+		height:600px;
+	}
+	
+	.flexible-container {
+		position: relative;
+		height: 200px;
+		overflow: hidden;
+	}
+	.flexible-container iframe,   
+	.flexible-container object,  
+	.flexible-container embed {
+		position: absolute;
+		top: 55px;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	
+	
+}
+
+
+
+@media only screen and (max-width:500px){
+	
+	#contactForm{
+		margin-top:200px;
+	}
+	
+	.flexible-container {
+		position: relative;
+		padding-bottom: 75%;
+		padding-top: 30px;
+		height: 0;
+		overflow: hidden;
+	}
+
+	.flexible-container iframe,   
+	.flexible-container object,  
+	.flexible-container embed {
+		position: absolute;
+		top: 55px;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	#christyInTree{
+		width:350px;
+		height:466px;
+	
+	}
+	
+	footer{
+		height:275px;
+	}	
+}
+	
+@media only screen and (max-width: 492px) {
+	footer {
+		font-size:1.10em;
+		}
+}
+
+
+@media only screen and (max-width: 470px) {
+	
+	/*#acupunctureTitle{
+		float:left;
+		width:100%;
+		position:relative;
+		color:red;
+	}*/
+	#ext_menu-3 h1#bizName{
+		font-size:3.5em;
+	}
+	
+	#ext_menu-f h1#bizName{
+		font-size:3.5em;
+	}
+	#ext_menu-i h1#bizName{
+		font-size:3.5em;
+	}
+	#ext_menu-m h1#bizName{
+		font-size:3.5em;
+	}
+	#ext_menu-0 h1#bizName{
+		font-size:3.5em;
+	}
+	#ext_menu-r h1#bizName{
+		font-size:3.5em;
+	}
+	#outerNewPatientForms{
+		margin-top:-110px;
+	
+	}
+}
+
+@media only screen and (max-width: 440px) {
+	
+	/*#acupunctureTitle{
+		float:left;
+		width:100%;
+		position:relative;
+		color:red;
+	}*/
+	#ext_menu-3 h1#bizName{
+		font-size:3.25em;
+	}
+	
+	#ext_menu-f h1#bizName{
+		font-size:3.25em;
+	}
+	#ext_menu-i h1#bizName{
+		font-size:3.25em;
+	}
+	#ext_menu-m h1#bizName{
+		font-size:3.25em;
+	}
+	#ext_menu-o h1#bizName{
+		font-size:3.25em;
+	}
+	#ext_menu-r h1#bizName{
+		font-size:3.25em;
+	}
+	.flexible-container iframe,   
+	.flexible-container object,  
+	.flexible-container embed {
+		position: absolute;
+		top: 55px;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		left:0;
+		right: 0;
+		margin: 0 auto;
+	}
+
+}
+
+@media only screen and (max-width: 420px) {
+	
+
+	#ext_menu-3 h1#bizName{
+		font-size:3.0em;
+	}
+	#ext_menu-f h1#bizName{
+		font-size:3.0em;
+	}
+	#ext_menu-i h1#bizName{
+		font-size:3.0em;
+	}
+	#ext_menu-m h1#bizName{
+		font-size:3.0em;
+	}
+	#ext_menu-o h1#bizName{
+		font-size:3.0em;
+	}
+	#ext_menu-r h1#bizName{
+		font-size:3.0em;
+	}
+	
+	#welcome{
+		font-size:.9em;
+	}
+	
+	.welcome-section{
+		margin-top:-50px;
+	}
+
+	#bohdiLeafImage{
+		width:275px;
+		height:289px;
+		position:absolute;
+		vertical-align:center;
+		left:0;
+		right:0;
+		margin: 0 auto;
+		/*float:left;*/
+		display:block;
+		top:-55px;
+		z-index:-1;
+	}
+	#contactPageContent{
+		margin-top:225px;
+	}
+	#contactForm{
+		margin-top:100px;
+	}
+	#outerNewPatientForms{
+		margin-top:-130px;
+	
+	}
+
+	footer{
+		height:300px;
+	}
+	
+}
+@media only screen and (max-width: 390px) {
+	
+	.mbr-navbar--sticky .mbr-navbar__section {
+		position:fixed;
+	}
+	.mbr-navbar__section mbr-section {
+		position:fixed;
+	}
+	
+	#acupunctureTitle{
+		font-size:.9em;
+	}
+	
+	#ext_menu-3 #herbalMedicine{
+		font-size:.9em;
+	}
+	#ext_menu-f #herbalMedicine{
+		font-size:.9em;
+	}
+	#ext_menu-i #herbalMedicine{
+		font-size:.9em;
+	}
+	#ext_menu-m #herbalMedicine{
+		font-size:.9em;
+	}
+	#ext_menu-o #herbalMedicine{
+		font-size:.9em;
+	}
+	#ext_menu-r #herbalMedicine{
+		font-size:.9em;
+	}
+	#bizName{
+		line-height:40px;
+	}
+	#christyInTree{
+		width:280px;
+		height:373px;
+	}
+	footer{
+		height:310px;
+		/*position:absolute;
+		bottom:0;*/
+	}
+	#massageTable2{
+		display:block;
+		width:100%;
+		height:295px;
+	}
+	#contactRight{
+		background-color: rgba(255, 255, 255, 0.75);
+		padding-top:20px;
+		padding-right:0px;
+		padding-bottom:5px;
+		padding-left:10px;
+	}	
+}
+@media only screen and (max-width: 360px) {
+	
+	#acupunctureTitle{
+		font-size:.80em;
+	}
+	
+	#ext_menu-3 #herbalMedicine{
+	
+		font-size:.85em;
+	
+	}
+	#ext_menu-f #herbalMedicine{
+		font-size:.85em;
+	}
+	#ext_menu-i #herbalMedicine{
+		font-size:.85em;
+	}
+	#ext_menu-m #herbalMedicine{
+		font-size:.85em;
+	}
+	#ext_menu-o #herbalMedicine{
+		font-size:.85em;
+	}
+	.mbr-section {
+		padding: 0 10px 0 10px;
+	}
+	
+}
+
+@media only screen and (max-width: 320px) {
+	
+	.mbr-buttons__btn,
+  .mbr-buttons__link,
+  .mbr-buttons--right .mbr-buttons__btn,
+  .mbr-buttons--right .mbr-buttons__link {
+    display: inline-block;
+    text-align: center;
+    width: 90%;/*changed from the Mobirise Template that had the button at 100% */
+  }
+
+	.mbr-section {
+    padding: 0 0px 0 0px;
+	}
+	
+	#bizName{
+		letter-spacing:0;
+	}
+	#acupunctureTitle{
+		font-size:.9em;
+	}
+	#acupunctureServices{
+		font-size: 1.5em;
+	}
+	#moxibustionServices{
+		font-size:1.5em;
+	}
+	#ext_menu-3 #herbalMedicine{
+	
+		font-size:.90em;
+	}
+	#ext_menu-f #herbalMedicine{
+	
+		font-size:.90em;
+	}
+	.mbr-navbar--sticky .mbr-navbar__section {
+    position: fixed;
+	}
+	#contactFrame{
+		width:320px;
+	}
+	#containerAbout{
+		background-color:rgb(145, 206, 225);
+		color:#fff;
+	}
+	
+	#contactPageContent{
+		width:320px;
+	}
+	.contactFormSection{
+		width:320px;
+	}
+	footer#footerID{
+		width:320px;
+	}
+	
+}
+@media only screen and (max-width: 282px) {
+	
+	#containerAbout{
+		width:282px;
+	} 
+	section#newPatientContent{
+		width:282px;
+	}
+	footer{
+		width:282px;
+	}
+	
+	
+}
+
+	
