@@ -7,12 +7,27 @@ email: brian.kidd.one@gmail.com
 website: briankiddmedia.com
 ----------------------------------------------------------*/
 
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   background-image: url("../images/seattle_background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   font-size: 16px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 /*html{
@@ -61,6 +76,16 @@ h1#main_header {
   gap: 15px;
 }
 
+.header-tagline {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.7em;
+  font-weight: 300;
+  color: #333;
+  margin: 5px 0 0 0;
+  text-align: center;
+  font-style: italic;
+}
+
 #main_logo {
   width: 75px;
   height: 150px;
@@ -84,7 +109,7 @@ a.social-icons:visited {
 }
 
 a.social-icons:hover {
-  color: #23527c;
+  color: white;
 }
 img#fccLogo {
   padding-top: 3px;
@@ -94,10 +119,15 @@ img#fccLogo {
 .navbar-inverse .navbar-nav > li a:link {
   font-family: "Roboto", sans-serif;
   font-size: 1.25em;
+  color: white;
+}
+
+.navbar-inverse .navbar-nav > li a {
+  color: white;
 }
 
 .navbar-inverse .navbar-nav > li a:hover {
-  color: #23527c;
+  color: #ed1c24;
 }
 section#about li a {
   color: red;
@@ -185,11 +215,60 @@ ul#skills {
   height: 100%;
 }
 
-#music_images img {
-  margin-left: 8%;
-  width: 15%;
-  height: 15%;
-  margin-bottom: 1em;
+/* Responsive music grid */
+.music-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.music-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.music-item:hover {
+  transform: translateY(-5px);
+}
+
+.music-item a {
+  display: block;
+  position: relative;
+  text-decoration: none;
+}
+
+.musicImages {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.music-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(transparent, rgba(0,0,0,0.8));
+  color: white;
+  padding: 20px 15px 15px;
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+}
+
+.music-item:hover .music-overlay {
+  transform: translateY(0);
+}
+
+.music-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-align: center;
 }
 
 /* Responsive writings grid */
@@ -248,17 +327,39 @@ ul#skills {
   text-align: center;
 }
 
+/* Override Bootstrap dropdown styles */
+.navbar-inverse .navbar-nav .dropdown-menu li a {
+  color: #000000 !important;
+}
+
+.navbar-inverse .navbar-nav .dropdown-menu li a:hover {
+  color: #ed1c24 !important;
+  background-color: transparent !important;
+}
+
+.dropdown-menu > li > a {
+  color: #000000 !important;
+}
+
+.dropdown-menu > li > a:hover {
+  color: #ed1c24 !important;
+  background-color: transparent !important;
+}
+
 footer {
-  position: static;
-  bottom: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  margin: 0;
   font-family: "Roboto", sans-serif;
   font-size: 1.5em;
-  width: 100%;
+  padding: 20px 0;
   background-color: #000000;
   color: #d1d1e0;
   text-align: center;
-  padding-top: 1%;
-  padding-bottom: 1%;
+  box-sizing: border-box;
+  z-index: 10;
 }
 
 /*Start media queries Brian Kidd*/
@@ -314,9 +415,19 @@ footer {
   .navbar-inverse .navbar-nav > li > a {
     font-family: "Roboto", sans-serif;
     font-size: 1em;
+    color: white;
+  }
+  
+  .navbar-inverse .navbar-nav > li > a:hover {
+    color: #ed1c24;
   }
   li.dropdown ul.dropdown-menu a.dropdown-item {
     font-size: 1em;
+    color: black;
+  }
+  
+  li.dropdown ul.dropdown-menu a.dropdown-item:hover {
+    color: #ed1c24;
   }
 
   .navbar {
@@ -341,7 +452,7 @@ footer {
   }
 
   a.social-icons:hover {
-    color: #23527c;
+    color: white;
   }
 
   #profile_photo {
@@ -390,9 +501,19 @@ footer {
   .navbar-inverse .navbar-nav > li > a {
     font-family: "Roboto", sans-serif;
     font-size: 1em;
+    color: white;
+  }
+  
+  .navbar-inverse .navbar-nav > li > a:hover {
+    color: #ed1c24;
   }
   li.dropdown ul.dropdown-menu a.dropdown-item {
     font-size: 1em;
+    color: black;
+  }
+  
+  li.dropdown ul.dropdown-menu a.dropdown-item:hover {
+    color: #ed1c24;
   }
 
   .navbar {
@@ -415,7 +536,7 @@ footer {
   }
 
   a.social-icons:hover {
-    color: #23527c;
+    color: white;
   }
 
   #profile_photo {
@@ -458,9 +579,19 @@ footer {
   .navbar-inverse .navbar-nav > li > a {
     font-family: "Roboto", sans-serif;
     font-size: 1em;
+    color: white;
+  }
+  
+  .navbar-inverse .navbar-nav > li > a:hover {
+    color: #ed1c24;
   }
   li.dropdown ul.dropdown-menu a.dropdown-item {
     font-size: 1em;
+    color: black;
+  }
+  
+  li.dropdown ul.dropdown-menu a.dropdown-item:hover {
+    color: #ed1c24;
   }
   .navbar {
     height: 10px;
@@ -482,7 +613,7 @@ footer {
   }
 
   a.social-icons:hover {
-    color: #23527c;
+    color: white;
   }
 
   section {
@@ -513,9 +644,19 @@ footer {
   .navbar-inverse .navbar-nav > li > a {
     font-family: "Roboto", sans-serif;
     font-size: 1em;
+    color: white;
+  }
+  
+  .navbar-inverse .navbar-nav > li > a:hover {
+    color: #ed1c24;
   }
   li.dropdown ul.dropdown-menu a.dropdown-item {
     font-size: 1em;
+    color: black;
+  }
+  
+  li.dropdown ul.dropdown-menu a.dropdown-item:hover {
+    color: #ed1c24;
   }
   .navbar {
     height: 10px;
@@ -537,7 +678,7 @@ footer {
   }
 
   a.social-icons:hover {
-    color: #23527c;
+    color: white;
   }
 
   section {
@@ -576,9 +717,19 @@ footer {
   .navbar-inverse .navbar-nav > li > a {
     font-family: "Roboto", sans-serif;
     font-size: 1em;
+    color: white;
+  }
+  
+  .navbar-inverse .navbar-nav > li > a:hover {
+    color: #ed1c24;
   }
   li.dropdown ul.dropdown-menu a.dropdown-item {
     font-size: 1em;
+    color: black;
+  }
+  
+  li.dropdown ul.dropdown-menu a.dropdown-item:hover {
+    color: #ed1c24;
   }
   .navbar {
     height: 10px;
@@ -600,7 +751,7 @@ footer {
   }
 
   a.social-icons:hover {
-    color: #23527c;
+    color: white;
   }
 
   section {
@@ -645,9 +796,19 @@ footer {
   .navbar-inverse .navbar-nav > li > a {
     font-family: "Roboto", sans-serif;
     font-size: 1em;
+    color: white;
+  }
+  
+  .navbar-inverse .navbar-nav > li > a:hover {
+    color: #ed1c24;
   }
   li.dropdown ul.dropdown-menu a.dropdown-item {
     font-size: 1em;
+    color: black;
+  }
+  
+  li.dropdown ul.dropdown-menu a.dropdown-item:hover {
+    color: #ed1c24;
   }
   .navbar {
     height: 8px;
@@ -679,7 +840,7 @@ footer {
   }
 
   a.social-icons:hover {
-    color: #23527c;
+    color: white;
   }
 
   section {
@@ -721,9 +882,19 @@ footer {
   .navbar-inverse .navbar-nav > li > a {
     font-family: "Roboto", sans-serif;
     font-size: 1em;
+    color: white;
+  }
+  
+  .navbar-inverse .navbar-nav > li > a:hover {
+    color: #ed1c24;
   }
   li.dropdown ul.dropdown-menu a.dropdown-item {
     font-size: 1em;
+    color: black;
+  }
+  
+  li.dropdown ul.dropdown-menu a.dropdown-item:hover {
+    color: #ed1c24;
   }
 
   .navbar {
@@ -746,7 +917,7 @@ footer {
   }
 
   a.social-icons:hover {
-    color: #23527c;
+    color: white;
   }
 
   /*a img.writingsImages{
@@ -793,10 +964,20 @@ footer {
   .navbar-inverse .navbar-nav > li > a {
     font-family: "Roboto", sans-serif;
     font-size: 1em;
+    color: white;
+  }
+  
+  .navbar-inverse .navbar-nav > li > a:hover {
+    color: #ed1c24;
   }
 
   li.dropdown ul.dropdown-menu a.dropdown-item {
     font-size: 1em;
+    color: black;
+  }
+  
+  li.dropdown ul.dropdown-menu a.dropdown-item:hover {
+    color: #ed1c24;
   }
 
   .navbar {
@@ -818,7 +999,7 @@ footer {
   }
 
   a.social-icons:hover {
-    color: #23527c;
+    color: white;
   }
 
   a img.writingsImages {
@@ -865,9 +1046,19 @@ footer {
   .navbar-inverse .navbar-nav > li > a {
     font-family: "Roboto", sans-serif;
     font-size: 1em;
+    color: white;
+  }
+  
+  .navbar-inverse .navbar-nav > li > a:hover {
+    color: #ed1c24;
   }
   li.dropdown ul.dropdown-menu a.dropdown-item {
     font-size: 1em;
+    color: black;
+  }
+  
+  li.dropdown ul.dropdown-menu a.dropdown-item:hover {
+    color: #ed1c24;
   }
 
   .navbar {
@@ -890,7 +1081,7 @@ footer {
   }
 
   a.social-icons:hover {
-    color: #23527c;
+    color: white;
   }
 
   a img.writingsImages {
@@ -943,17 +1134,31 @@ footer {
   .navbar-inverse .navbar-nav > li > a {
     font-family: "Roboto", sans-serif;
     font-size: 1em;
+    color: white;
+  }
+  
+  .navbar-inverse .navbar-nav > li > a:hover {
+    color: #ed1c24;
   }
 
   li.dropdown ul.dropdown-menu a.dropdown-item {
     font-size: 1em;
+    color: black;
+  }
+  
+  li.dropdown ul.dropdown-menu a.dropdown-item:hover {
+    color: #ed1c24;
   }
   .navbar {
     height: 10px;
   }
 
   .dropdown-menu li a {
-    color: red;
+    color: black;
+  }
+  
+  .dropdown-menu li a:hover {
+    color: #ed1c24;
   }
 
   ul.nav {
@@ -971,7 +1176,7 @@ footer {
   }
 
   a.social-icons:hover {
-    color: #23527c;
+    color: white;
   }
   section {
     margin-bottom: 2%;
@@ -981,10 +1186,14 @@ footer {
     height: 125px;
     padding-top: 10px;
   }
-  #music_images img {
-    margin-left: 3%;
-    width: 20%;
-    height: 20%;
+  /* Music grid responsive for tablets */
+  .music-grid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+  }
+  
+  .musicImages {
+    height: 180px;
   }
 
   /* Responsive grid for tablets */
@@ -1046,6 +1255,11 @@ footer {
     width: 60px;
     height: 115px;
   }
+  
+  .header-tagline {
+    font-size: 1.4em;
+  }
+  
   .wrapper {
     margin-left: 10%;
     margin-right: 10%;
@@ -1067,9 +1281,19 @@ footer {
   .navbar-inverse .navbar-nav > li > a {
     font-family: "Roboto", sans-serif;
     font-size: 1em;
+    color: white;
+  }
+  
+  .navbar-inverse .navbar-nav > li > a:hover {
+    color: #ed1c24;
   }
   li.dropdown ul.dropdown-menu a.dropdown-item {
     font-size: 1em;
+    color: black;
+  }
+  
+  li.dropdown ul.dropdown-menu a.dropdown-item:hover {
+    color: #ed1c24;
   }
 
   .navbar {
@@ -1082,6 +1306,11 @@ footer {
 
   li.dropdown ul.dropdown-menu a.dropdown-item {
     font-size: 1em;
+    color: black;
+  }
+  
+  li.dropdown ul.dropdown-menu a.dropdown-item:hover {
+    color: #ed1c24;
   }
 
   .social-icons {
@@ -1096,7 +1325,7 @@ footer {
   }
 
   a.social-icons:hover {
-    color: #23527c;
+    color: white;
   }
 
   img#fccLogo {
@@ -1118,6 +1347,20 @@ footer {
   }
 
   .writing-text {
+    font-size: 0.9em;
+  }
+  
+  /* Music grid responsive for mobile */
+  .music-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  
+  .musicImages {
+    height: 150px;
+  }
+  
+  .music-text {
     font-size: 0.9em;
   }
 }
@@ -1171,10 +1414,20 @@ footer {
   .navbar-inverse .navbar-nav > li > a {
     font-family: "Roboto", sans-serif;
     font-size: 1em;
+    color: white;
+  }
+  
+  .navbar-inverse .navbar-nav > li > a:hover {
+    color: #ed1c24;
   }
 
   li.dropdown ul.dropdown-menu a.dropdown-item {
     font-size: 1em;
+    color: black;
+  }
+  
+  li.dropdown ul.dropdown-menu a.dropdown-item:hover {
+    color: #ed1c24;
   }
   .navbar {
     height: 10px;
@@ -1195,7 +1448,7 @@ footer {
   }
 
   a.social-icons:hover {
-    color: #23527c;
+    color: white;
   }
   a img.writingsImages {
     width: 125px;
@@ -1233,10 +1486,20 @@ footer {
   .navbar-inverse .navbar-nav > li > a {
     font-family: "Roboto", sans-serif;
     font-size: 1em;
+    color: white;
+  }
+  
+  .navbar-inverse .navbar-nav > li > a:hover {
+    color: #ed1c24;
   }
 
   li.dropdown ul.dropdown-menu a.dropdown-item {
     font-size: 1em;
+    color: black;
+  }
+  
+  li.dropdown ul.dropdown-menu a.dropdown-item:hover {
+    color: #ed1c24;
   }
 
   .navbar {
@@ -1258,7 +1521,7 @@ footer {
   }
 
   a.social-icons:hover {
-    color: #23527c;
+    color: white;
   }
 
   /* Very small mobile screens */
@@ -1274,6 +1537,20 @@ footer {
   .writing-text {
     font-size: 0.8em;
     padding: 10px 8px 8px;
+  }
+  
+  /* Music grid for very small screens */
+  .music-grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 8px;
+  }
+  
+  .musicImages {
+    height: 120px;
+  }
+  
+  .music-text {
+    font-size: 0.8em;
   }
 
   section {
@@ -1306,10 +1583,20 @@ footer {
   .navbar-inverse .navbar-nav > li > a {
     font-family: "Roboto", sans-serif;
     font-size: 1em;
+    color: white;
+  }
+  
+  .navbar-inverse .navbar-nav > li > a:hover {
+    color: #ed1c24;
   }
 
   li.dropdown ul.dropdown-menu a.dropdown-item {
     font-size: 1em;
+    color: black;
+  }
+  
+  li.dropdown ul.dropdown-menu a.dropdown-item:hover {
+    color: #ed1c24;
   }
 
   .navbar {
@@ -1331,7 +1618,7 @@ footer {
   }
 
   a.social-icons:hover {
-    color: #23527c;
+    color: white;
   }
   section {
     margin-bottom: 2%;
@@ -1369,10 +1656,20 @@ footer {
   .navbar-inverse .navbar-nav > li > a {
     font-family: "Roboto", sans-serif;
     font-size: 1em;
+    color: white;
+  }
+  
+  .navbar-inverse .navbar-nav > li > a:hover {
+    color: #ed1c24;
   }
 
   li.dropdown ul.dropdown-menu a.dropdown-item {
     font-size: 1em;
+    color: black;
+  }
+  
+  li.dropdown ul.dropdown-menu a.dropdown-item:hover {
+    color: #ed1c24;
   }
 
   .navbar {
@@ -1403,7 +1700,7 @@ footer {
   }
 
   a.social-icons:hover {
-    color: #23527c;
+    color: white;
   }
 
   section {
@@ -1503,10 +1800,20 @@ footer {
   .navbar-inverse .navbar-nav > li > a {
     font-family: "Roboto", sans-serif;
     font-size: 1em;
+    color: white;
+  }
+  
+  .navbar-inverse .navbar-nav > li > a:hover {
+    color: #ed1c24;
   }
 
   li.dropdown ul.dropdown-menu a.dropdown-item {
     font-size: 1em;
+    color: black;
+  }
+  
+  li.dropdown ul.dropdown-menu a.dropdown-item:hover {
+    color: #ed1c24;
   }
 
   .navbar {
@@ -1529,6 +1836,6 @@ footer {
   }
 
   a.social-icons:hover {
-    color: #23527c;
+    color: white;
   }
 }
