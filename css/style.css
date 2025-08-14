@@ -57,7 +57,7 @@ body {
 /* Modern CSS Grid header layout */
 .header-content {
   display: grid;
-  grid-template-areas: 
+  grid-template-areas:
     "main-header"
     "tagline";
   grid-template-rows: auto auto;
@@ -185,31 +185,31 @@ img#fccLogo {
   .fixedTop {
     position: static;
   }
-  
+
   /* Adjust wrapper margin since header is not fixed */
   .wrapper {
     margin-top: 20px;
   }
-  
+
   .navbar-toggle {
     display: block;
   }
-  
+
   .navbar-collapse.collapse {
     display: none;
   }
-  
+
   .navbar-collapse.collapse.in {
     display: block;
   }
-  
+
   /* Vertical mobile nav layout */
   .navbar-nav {
     flex-direction: column;
     width: 100%;
     margin: 0;
   }
-  
+
   .navbar-nav > li {
     width: 100%;
     text-align: center;
@@ -217,13 +217,13 @@ img#fccLogo {
     margin-bottom: 0;
     border-bottom: 1px solid #444;
   }
-  
+
   .navbar-nav > li > a {
     padding: 15px 20px;
     display: block;
     width: 100%;
   }
-  
+
   /* Dropdown menu in mobile */
   .dropdown-menu {
     position: static;
@@ -234,28 +234,28 @@ img#fccLogo {
     border: none;
     box-shadow: none;
   }
-  
+
   .dropdown-menu > li > a {
     padding: 10px 30px;
     color: #fff;
   }
-  
+
   .dropdown-menu > li > a:hover {
     color: #ed1c24;
     background-color: transparent;
   }
-  
+
   /* Override specific dropdown item styling for mobile */
   li.dropdown ul.dropdown-menu a.dropdown-item {
     color: #fff !important;
     font-size: 1em;
   }
-  
+
   li.dropdown ul.dropdown-menu a.dropdown-item:hover {
     color: #ed1c24 !important;
     background-color: transparent;
   }
-  
+
   /* Social icons in mobile nav */
   .social-icons {
     display: block;
@@ -403,7 +403,7 @@ ul#skills {
   bottom: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.9));
   color: white;
   padding: 20px 15px 15px;
   transform: translateY(100%);
@@ -459,7 +459,7 @@ ul#skills {
   bottom: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1));
   color: white;
   padding: 20px 15px 15px;
   transform: translateY(100%);
@@ -859,7 +859,7 @@ footer {
     font-size: 1.2rem;
     max-width: 95%;
   }
-  
+
   .header-content {
     display: grid;
     grid-template-areas: "main-header tagline";
@@ -940,20 +940,20 @@ footer {
     margin: 0 auto;
     justify-items: center;
   }
-  
+
   .writing-item {
     width: 350px;
     max-width: 100%;
     margin: 0 auto;
   }
-  
+
   .writingsImages {
     height: 200px;
     width: 100%;
     object-fit: cover;
     display: block;
   }
-  
+
   /* Override specific img selector with higher specificity */
   .writing-item a img.writingsImages {
     width: 100%;
@@ -1551,7 +1551,7 @@ footer {
     margin: 0 auto;
     justify-items: center;
   }
-  
+
   .writing-item {
     width: 350px;
     max-width: 100%;
@@ -1563,7 +1563,7 @@ footer {
     width: 100%;
     object-fit: cover;
   }
-  
+
   .writing-item a img.writingsImages {
     width: 100%;
     height: 200px;
@@ -1696,11 +1696,11 @@ footer {
     font-family: "Slabo 27px", serif;
     float: right;
   }
-  
+
   .header-tagline {
     font-size: 1.1em;
   }
-  
+
   #main_logo {
     width: 40px;
     height: 75px;
@@ -1761,7 +1761,7 @@ footer {
     margin: 0 auto;
     justify-items: center;
   }
-  
+
   .writing-item {
     width: 300px;
     max-width: 100%;
@@ -1773,7 +1773,7 @@ footer {
     width: 100%;
     object-fit: cover;
   }
-  
+
   .writing-item a img.writingsImages {
     width: 100%;
     height: 180px;
