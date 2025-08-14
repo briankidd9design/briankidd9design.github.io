@@ -16,7 +16,10 @@ html {
   padding: 0;
   width: 100%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
+
+/* Remove CSS scroll attempts - will use JavaScript instead */
 
 body {
   background-image: url("../images/seattle_background.jpg");
@@ -178,6 +181,16 @@ img#fccLogo {
 
 /* Show hamburger menu on small screens */
 @media (max-width: 767px) {
+  /* Make header non-fixed on mobile */
+  .fixedTop {
+    position: static;
+  }
+  
+  /* Adjust wrapper margin since header is not fixed */
+  .wrapper {
+    margin-top: 20px;
+  }
+  
   .navbar-toggle {
     display: block;
   }
