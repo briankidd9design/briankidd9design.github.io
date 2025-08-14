@@ -115,6 +115,7 @@ a.social-icons {
   float: right;
   padding-top: 3px;
   margin-right: 10px;
+  transition: color 0.3s ease;
 }
 
 a.social-icons:visited {
@@ -133,10 +134,12 @@ img#fccLogo {
   font-family: "Roboto", sans-serif;
   font-size: 1.25em;
   color: white;
+  transition: color 0.3s ease;
 }
 
 .navbar-inverse .navbar-nav > li a {
   color: white;
+  transition: color 0.3s ease;
 }
 
 .navbar-inverse .navbar-nav > li a:hover {
@@ -238,6 +241,7 @@ img#fccLogo {
   .dropdown-menu > li > a {
     padding: 10px 30px;
     color: #fff;
+    transition: color 0.3s ease;
   }
 
   .dropdown-menu > li > a:hover {
@@ -249,6 +253,7 @@ img#fccLogo {
   li.dropdown ul.dropdown-menu a.dropdown-item {
     color: #fff !important;
     font-size: 1em;
+    transition: color 0.3s ease;
   }
 
   li.dropdown ul.dropdown-menu a.dropdown-item:hover {
@@ -273,6 +278,7 @@ img#fccLogo {
   border-radius: 4px;
   font-weight: bold;
   display: inline-block;
+  transition: all 0.3s ease;
 }
 
 .navbar-inverse .navbar-nav > li a.contact-btn:hover {
@@ -281,6 +287,7 @@ img#fccLogo {
 }
 section#about li a {
   color: red;
+  transition: color 0.3s ease;
 }
 section {
   background-color: #d1d1e0;
@@ -480,6 +487,7 @@ ul#skills {
 /* Override Bootstrap dropdown styles */
 .navbar-inverse .navbar-nav .dropdown-menu li a {
   color: #000000 !important;
+  transition: color 0.3s ease;
 }
 
 .navbar-inverse .navbar-nav .dropdown-menu li a:hover {
@@ -489,6 +497,7 @@ ul#skills {
 
 .dropdown-menu > li > a {
   color: #000000 !important;
+  transition: color 0.3s ease;
 }
 
 .dropdown-menu > li > a:hover {
@@ -566,6 +575,7 @@ footer {
     font-family: "Roboto", sans-serif;
     font-size: 1em;
     color: white;
+    transition: color 0.3s ease;
   }
 
   .navbar-inverse .navbar-nav > li > a:hover {
@@ -574,6 +584,7 @@ footer {
   li.dropdown ul.dropdown-menu a.dropdown-item {
     font-size: 1em;
     color: black;
+    transition: color 0.3s ease;
   }
 
   li.dropdown ul.dropdown-menu a.dropdown-item:hover {
@@ -595,6 +606,7 @@ footer {
     padding-right: 3px;
     margin-right: 10px;
     height: 2px;
+    transition: color 0.3s ease;
   }
 
   a.social-icons:visited {
@@ -654,6 +666,7 @@ footer {
     font-family: "Roboto", sans-serif;
     font-size: 1em;
     color: white;
+    transition: color 0.3s ease;
   }
 
   .navbar-inverse .navbar-nav > li > a:hover {
@@ -662,6 +675,7 @@ footer {
   li.dropdown ul.dropdown-menu a.dropdown-item {
     font-size: 1em;
     color: black;
+    transition: color 0.3s ease;
   }
 
   li.dropdown ul.dropdown-menu a.dropdown-item:hover {
@@ -681,6 +695,7 @@ footer {
     float: right;
     padding-top: 3px;
     margin-right: 10px;
+    transition: color 0.3s ease;
   }
 
   a.social-icons:visited {
@@ -732,6 +747,7 @@ footer {
     font-family: "Roboto", sans-serif;
     font-size: 1em;
     color: white;
+    transition: color 0.3s ease;
   }
 
   .navbar-inverse .navbar-nav > li > a:hover {
@@ -740,6 +756,7 @@ footer {
   li.dropdown ul.dropdown-menu a.dropdown-item {
     font-size: 1em;
     color: black;
+    transition: color 0.3s ease;
   }
 
   li.dropdown ul.dropdown-menu a.dropdown-item:hover {
@@ -758,6 +775,7 @@ footer {
     float: right;
     padding-top: 3px;
     margin-right: 10px;
+    transition: color 0.3s ease;
   }
 
   a.social-icons:visited {
@@ -797,6 +815,7 @@ footer {
     font-family: "Roboto", sans-serif;
     font-size: 1em;
     color: white;
+    transition: color 0.3s ease;
   }
 
   .navbar-inverse .navbar-nav > li > a:hover {
@@ -805,6 +824,7 @@ footer {
   li.dropdown ul.dropdown-menu a.dropdown-item {
     font-size: 1em;
     color: black;
+    transition: color 0.3s ease;
   }
 
   li.dropdown ul.dropdown-menu a.dropdown-item:hover {
@@ -823,6 +843,7 @@ footer {
     float: right;
     padding-top: 3px;
     margin-right: 10px;
+    transition: color 0.3s ease;
   }
 
   a.social-icons:visited {
@@ -890,6 +911,7 @@ footer {
     font-family: "Roboto", sans-serif;
     font-size: 1em;
     color: white;
+    transition: color 0.3s ease;
   }
 
   .navbar-inverse .navbar-nav > li > a:hover {
@@ -898,6 +920,7 @@ footer {
   li.dropdown ul.dropdown-menu a.dropdown-item {
     font-size: 1em;
     color: black;
+    transition: color 0.3s ease;
   }
 
   li.dropdown ul.dropdown-menu a.dropdown-item:hover {
@@ -916,6 +939,7 @@ footer {
     float: right;
     padding-top: 3px;
     margin-right: 10px;
+    transition: color 0.3s ease;
   }
 
   a.social-icons:visited {
@@ -1004,6 +1028,7 @@ footer {
     font-family: "Roboto", sans-serif;
     font-size: 1em;
     color: white;
+    transition: color 0.3s ease;
   }
 
   .navbar-inverse .navbar-nav > li > a:hover {
@@ -1012,6 +1037,7 @@ footer {
   li.dropdown ul.dropdown-menu a.dropdown-item {
     font-size: 1em;
     color: black;
+    transition: color 0.3s ease;
   }
 
   li.dropdown ul.dropdown-menu a.dropdown-item:hover {
@@ -1041,6 +1067,7 @@ footer {
     float: right;
     padding-top: 3px;
     margin-right: 10px;
+    transition: color 0.3s ease;
   }
   a.social-icons:visited {
     color: #ed1c24;
@@ -1090,6 +1117,7 @@ footer {
     font-family: "Roboto", sans-serif;
     font-size: 1em;
     color: white;
+    transition: color 0.3s ease;
   }
 
   .navbar-inverse .navbar-nav > li > a:hover {
@@ -1098,6 +1126,7 @@ footer {
   li.dropdown ul.dropdown-menu a.dropdown-item {
     font-size: 1em;
     color: black;
+    transition: color 0.3s ease;
   }
 
   li.dropdown ul.dropdown-menu a.dropdown-item:hover {
@@ -1117,6 +1146,7 @@ footer {
     float: right;
     padding-top: 3px;
     margin-right: 10px;
+    transition: color 0.3s ease;
   }
 
   a.social-icons:visited {
@@ -1172,6 +1202,7 @@ footer {
     font-family: "Roboto", sans-serif;
     font-size: 1em;
     color: white;
+    transition: color 0.3s ease;
   }
 
   .navbar-inverse .navbar-nav > li > a:hover {
@@ -1181,6 +1212,7 @@ footer {
   li.dropdown ul.dropdown-menu a.dropdown-item {
     font-size: 1em;
     color: black;
+    transition: color 0.3s ease;
   }
 
   li.dropdown ul.dropdown-menu a.dropdown-item:hover {
@@ -1200,6 +1232,7 @@ footer {
     float: right;
     padding-top: 3px;
     margin-right: 10px;
+    transition: color 0.3s ease;
   }
   a.social-icons:visited {
     color: #ed1c24;
@@ -1254,6 +1287,7 @@ footer {
     font-family: "Roboto", sans-serif;
     font-size: 1em;
     color: white;
+    transition: color 0.3s ease;
   }
 
   .navbar-inverse .navbar-nav > li > a:hover {
@@ -1262,6 +1296,7 @@ footer {
   li.dropdown ul.dropdown-menu a.dropdown-item {
     font-size: 1em;
     color: black;
+    transition: color 0.3s ease;
   }
 
   li.dropdown ul.dropdown-menu a.dropdown-item:hover {
@@ -1281,6 +1316,7 @@ footer {
     float: right;
     padding-top: 3px;
     margin-right: 10px;
+    transition: color 0.3s ease;
   }
 
   a.social-icons:visited {
@@ -1342,6 +1378,7 @@ footer {
     font-family: "Roboto", sans-serif;
     font-size: 1em;
     color: white;
+    transition: color 0.3s ease;
   }
 
   .navbar-inverse .navbar-nav > li > a:hover {
@@ -1351,6 +1388,7 @@ footer {
   li.dropdown ul.dropdown-menu a.dropdown-item {
     font-size: 1em;
     color: black;
+    transition: color 0.3s ease;
   }
 
   li.dropdown ul.dropdown-menu a.dropdown-item:hover {
@@ -1377,6 +1415,7 @@ footer {
     float: right;
     padding-top: 3px;
     margin-right: 10px;
+    transition: color 0.3s ease;
   }
   a.social-icons:visited {
     color: #ed1c24;
@@ -1489,6 +1528,7 @@ footer {
     font-family: "Roboto", sans-serif;
     font-size: 1em;
     color: white;
+    transition: color 0.3s ease;
   }
 
   .navbar-inverse .navbar-nav > li > a:hover {
@@ -1497,6 +1537,7 @@ footer {
   li.dropdown ul.dropdown-menu a.dropdown-item {
     font-size: 1em;
     color: black;
+    transition: color 0.3s ease;
   }
 
   li.dropdown ul.dropdown-menu a.dropdown-item:hover {
@@ -1514,6 +1555,7 @@ footer {
   li.dropdown ul.dropdown-menu a.dropdown-item {
     font-size: 1em;
     color: black;
+    transition: color 0.3s ease;
   }
 
   li.dropdown ul.dropdown-menu a.dropdown-item:hover {
@@ -1639,6 +1681,7 @@ footer {
     font-family: "Roboto", sans-serif;
     font-size: 1em;
     color: white;
+    transition: color 0.3s ease;
   }
 
   .navbar-inverse .navbar-nav > li > a:hover {
@@ -1648,6 +1691,7 @@ footer {
   li.dropdown ul.dropdown-menu a.dropdown-item {
     font-size: 1em;
     color: black;
+    transition: color 0.3s ease;
   }
 
   li.dropdown ul.dropdown-menu a.dropdown-item:hover {
@@ -1666,6 +1710,7 @@ footer {
     float: right;
     padding-top: 3px;
     margin-right: 10px;
+    transition: color 0.3s ease;
   }
   a.social-icons:visited {
     color: #ed1c24;
@@ -1716,6 +1761,7 @@ footer {
     font-family: "Roboto", sans-serif;
     font-size: 1em;
     color: white;
+    transition: color 0.3s ease;
   }
 
   .navbar-inverse .navbar-nav > li > a:hover {
@@ -1725,6 +1771,7 @@ footer {
   li.dropdown ul.dropdown-menu a.dropdown-item {
     font-size: 1em;
     color: black;
+    transition: color 0.3s ease;
   }
 
   li.dropdown ul.dropdown-menu a.dropdown-item:hover {
@@ -1744,6 +1791,7 @@ footer {
     float: right;
     padding-top: 3px;
     margin-right: 10px;
+    transition: color 0.3s ease;
   }
   a.social-icons:visited {
     color: #ed1c24;
@@ -1830,6 +1878,7 @@ footer {
     font-family: "Roboto", sans-serif;
     font-size: 1em;
     color: white;
+    transition: color 0.3s ease;
   }
 
   .navbar-inverse .navbar-nav > li > a:hover {
@@ -1839,6 +1888,7 @@ footer {
   li.dropdown ul.dropdown-menu a.dropdown-item {
     font-size: 1em;
     color: black;
+    transition: color 0.3s ease;
   }
 
   li.dropdown ul.dropdown-menu a.dropdown-item:hover {
@@ -1858,6 +1908,7 @@ footer {
     float: right;
     padding-top: 3px;
     margin-right: 10px;
+    transition: color 0.3s ease;
   }
   a.social-icons:visited {
     color: #ed1c24;
@@ -1903,6 +1954,7 @@ footer {
     font-family: "Roboto", sans-serif;
     font-size: 1em;
     color: white;
+    transition: color 0.3s ease;
   }
 
   .navbar-inverse .navbar-nav > li > a:hover {
@@ -1912,6 +1964,7 @@ footer {
   li.dropdown ul.dropdown-menu a.dropdown-item {
     font-size: 1em;
     color: black;
+    transition: color 0.3s ease;
   }
 
   li.dropdown ul.dropdown-menu a.dropdown-item:hover {
@@ -2047,6 +2100,7 @@ footer {
     font-family: "Roboto", sans-serif;
     font-size: 1em;
     color: white;
+    transition: color 0.3s ease;
   }
 
   .navbar-inverse .navbar-nav > li > a:hover {
@@ -2056,6 +2110,7 @@ footer {
   li.dropdown ul.dropdown-menu a.dropdown-item {
     font-size: 1em;
     color: black;
+    transition: color 0.3s ease;
   }
 
   li.dropdown ul.dropdown-menu a.dropdown-item:hover {
@@ -2075,6 +2130,7 @@ footer {
     float: right;
     padding-top: 3px;
     margin-right: 10px;
+    transition: color 0.3s ease;
   }
 
   a.social-icons:visited {
