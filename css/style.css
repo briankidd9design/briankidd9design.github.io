@@ -151,6 +151,91 @@ img#fccLogo {
   align-items: center;
 }
 
+/* Bootstrap hamburger menu styling */
+.navbar-toggle {
+  display: none;
+  background-color: transparent;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+}
+
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: #fff;
+  border-radius: 1px;
+  margin-bottom: 4px;
+}
+
+.navbar-toggle .icon-bar:last-child {
+  margin-bottom: 0;
+}
+
+/* Show hamburger menu on small screens */
+@media (max-width: 767px) {
+  .navbar-toggle {
+    display: block;
+  }
+  
+  .navbar-collapse.collapse {
+    display: none;
+  }
+  
+  .navbar-collapse.collapse.in {
+    display: block;
+  }
+  
+  /* Vertical mobile nav layout */
+  .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+  }
+  
+  .navbar-nav > li {
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin-bottom: 0;
+    border-bottom: 1px solid #444;
+  }
+  
+  .navbar-nav > li > a {
+    padding: 15px 20px;
+    display: block;
+    width: 100%;
+  }
+  
+  /* Dropdown menu in mobile */
+  .dropdown-menu {
+    position: static;
+    float: none;
+    width: 100%;
+    margin-top: 0;
+    background-color: #222;
+    border: none;
+    box-shadow: none;
+  }
+  
+  .dropdown-menu > li > a {
+    padding: 10px 30px;
+    color: #ccc;
+  }
+  
+  /* Social icons in mobile nav */
+  .social-icons {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #444;
+  }
+}
+
 /* Contact button CTA styling */
 .navbar-inverse .navbar-nav > li a.contact-btn {
   background-color: #ed1c24;
