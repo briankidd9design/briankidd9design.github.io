@@ -129,6 +129,32 @@ img#fccLogo {
 .navbar-inverse .navbar-nav > li a:hover {
   color: #ed1c24;
 }
+
+/* Flexbox navigation alignment */
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav > li {
+  display: flex;
+  align-items: center;
+}
+
+/* Contact button CTA styling */
+.navbar-inverse .navbar-nav > li a.contact-btn {
+  background-color: #ed1c24;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.navbar-inverse .navbar-nav > li a.contact-btn:hover {
+  background-color: white;
+  color: #ed1c24;
+}
 section#about li a {
   color: red;
 }
